@@ -1,5 +1,3 @@
-# RecapController
-
 # Installation
 
 dans votre projet, à la racine, executez ces commandes :
@@ -13,7 +11,9 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 ```
 
-## Mettre composer dans le path pour le rendre accessible partout
+## Mettre composer dans le Path pour le rendre accessible partout
+
+le Path est en quelque sorte un dossier ou son contenu est accessible partout 
 
 ```
 sudo mv composer.phar /usr/local/bin/composer
@@ -23,7 +23,9 @@ sudo mv composer.phar /usr/local/bin/composer
 
 utilisez le site https://packagist.org
 
+```
 composer require nomdemadependence
+```
 
 ## Installer var-Dumper
 
@@ -59,6 +61,7 @@ si un problème de version se produit, modifiez votre fichier composer.json et m
         "benoclock/alto-dispatcher": "dev-master"
     }
 }
+
 ```
 
 une fois ces modifications apportés, tapez :
@@ -66,3 +69,6 @@ une fois ces modifications apportés, tapez :
 ```
 composer update
 ```
+
+
+
